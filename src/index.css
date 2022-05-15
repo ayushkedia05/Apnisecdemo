@@ -12,4 +12,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+   @media only screen and (min-width: 600px) {
+      html {
+        zoom: .8;
+      }
+    }
 
+    @media only screen and (min-width: 800px) {
+      html {
+        zoom: .9;        
+      }
+    }
+
+    @media only screen and (min-width: 1000px) {
+      html {
+        zoom: 1;
+      }
+    }
